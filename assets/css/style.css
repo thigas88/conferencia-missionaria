@@ -169,6 +169,7 @@ hr.white { border-color: #F3AE9B; }
 
 .navigation-bar > li.featured a { 
   background:#fe4918; 
+  color:#fff;
   outline: 1px solid #fe4918; 
   text-decoration: none; 
   padding-left: 10px; 
