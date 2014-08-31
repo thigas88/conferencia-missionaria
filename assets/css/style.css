@@ -202,11 +202,16 @@ hr.white { border-color: #F3AE9B; }
   background: #fff; }
 .navigation-toggle .icon-bar+.icon-bar { margin-top: 4px; }
 
-#contact { background: url('../img/world-bg.jpg') center bottom no-repeat; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-*/
+#map { background: url('../img/world-bg.jpg') center bottom no-repeat; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+
 #projects .project-info { font-size: 17pt; }
-#projects .project { font-size: 100px; color: #fe4918; }
 #projects .icon-wrap { font-size: 38px; line-height: 38px; margin-bottom: -10px; }
+
+#stat { background: url('../img/stat-bg.jpg') center bottom no-repeat; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+
+#stat .stat-info { font-size: 17pt; }
+#stat .stat { font-size: 100px; color: #fe4918; }
+#stat .icon-wrap { font-size: 38px; line-height: 38px; margin-bottom: -10px; }
 
 #register { background: url('../img/register-bg.jpg') center top no-repeat; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 #register .overlay { background: #fe4918; opacity: .8; }
@@ -740,6 +745,7 @@ label.error { display: block; }
   .nav-tabs-simple .nav-tabs.nav-justified > li { display: table-cell; width: 1%; }
   #about .col-md-5 img { margin: 0 auto; }
   #projects .counter { padding-top: 30px; }
+  #stat .counter { padding-top: 30px; }
   #canvas-map { display:none; }
   #map {padding:0;}
   .location {background: #F1F0F0;}
