@@ -77,6 +77,11 @@
 		adjustNav: function(self, $parent) {
 			self.$elem.find('.' + self.config.currentClass).removeClass(self.config.currentClass);
 			$parent.addClass(self.config.currentClass);
+
+			console.log($parent.find('a').attr('href'));
+			var page = $parent.find('a').attr('href');
+
+			_gaq.push(['_trackEvent', 'page', 'access', page]);
 		},
 
 		bindInterval: function() {
@@ -217,6 +222,7 @@
 	$.fn.onePageNav = function(options) {
 		return this.each(function() {
 			new OnePageNav(this, options).init();
+
 		});
 	};
 
